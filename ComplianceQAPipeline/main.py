@@ -71,7 +71,7 @@ def run_cli_simulation():
     }
 
     # ========== DISPLAY SECTION: INPUT SUMMARY ==========
-    print("\n--- 1.nput Payload: INITIALIZING WORKFLOW ---")
+    print("\n--- 1.Input Payload: INITIALIZING WORKFLOW ---")
     # json.dumps() converts Python dict to formatted JSON string
     # indent=2 makes it readable with 2-space indentation
     print(f"I {json.dumps(initial_inputs, indent=2)}")
@@ -137,19 +137,3 @@ def run_cli_simulation():
 # It won't run if you import this file as a module
 if __name__ == "__main__":
     run_cli_simulation()  # Start the compliance audit simulation
-
-
-
-'''
-You have moved from "Coding" to "Product."
-
-Ingestion:  (YouTube -> Azure)
-
-Indexing:  (Speech-to-Text + OCR)
-
-Retrieval:  (Found the rules about "Claims")
-
-Reasoning:  (Applied rules to the specific claims in the video)
-
-You are done. Your pipeline is fully operational.
-'''
